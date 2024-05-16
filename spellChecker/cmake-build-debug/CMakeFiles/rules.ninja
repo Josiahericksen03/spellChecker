@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/josiahericksen/Downloads/spellChecker -B/Users/josiahericksen/Downloads/spellChecker/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/josiahericksen/Downloads/spellChecker/spellChecker -B/Users/josiahericksen/Downloads/spellChecker/spellChecker/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
